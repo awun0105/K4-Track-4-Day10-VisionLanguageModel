@@ -1,7 +1,7 @@
 # Lab Day 10: Finetune Qwen3-VL-4B (LoRA) để định vị hư hại mặt đường
 
 > Track 4 · Ngày 10 · *Nhãn, auto-labeling và Vision–Language Model* · **bài cá nhân** · ≈ 4 giờ trên **Google Colab T4 (miễn phí)**
-> Notebook [`lab_day10.ipynb`](lab_day10.ipynb) đã triển khai luồng huấn luyện và suy luận theo [`GUIDE.md`](GUIDE.md), đồng thời tạo evidence/biểu đồ để bạn nghiệm thu. Hãy đọc GUIDE, kiểm tra kết quả thật trên Colab và tự viết 10 phần phân tích trong `REPORT.md`. Công cụ chia dữ liệu và chấm điểm do giảng viên viết sẵn và **không được sửa**.
+> Notebook [`lab_day10.ipynb`](lab_day10.ipynb) đã triển khai luồng huấn luyện và suy luận theo [`GUIDE.md`](GUIDE.md), đồng thời tạo evidence/biểu đồ để bạn nghiệm thu. Hãy đọc GUIDE, kiểm tra kết quả thật trên Colab và tự viết 10 phần phân tích trong `REPORT.md`; notebook sẽ tạo một ZIP handoff để tải về và giải nén tại repo root. Công cụ chia dữ liệu và chấm điểm do giảng viên viết sẵn và **không được sửa**.
 
 | File | Dùng để làm gì |
 |---|---|
@@ -87,3 +87,9 @@ Mọi setup dùng **QLoRA 4-bit** (NF4). Riêng ViT và `lm_head` **không lư�
 - **Không commit**: `data/`, `work/`, `.env`, trọng số (`*.safetensors`, `*.bin`, `*.pt`).
 - **Không sửa** `scripts/` và `tests/` của đề.
 - Làm cá nhân: bạn có thể thảo luận ý tưởng, nhưng mã, số liệu và báo cáo phải là của bạn. Giảng viên đối chiếu các repo với nhau và có thể gọi **vấn đáp 5 phút**.
+
+## 7. Tải evidence sau khi chạy Colab
+
+Khi cell nghiệm thu cuối chạy xong, tải một file **`day10_report_handoff.zip`** tại `/content/K4-Track-4-Day10-VisionLanguageModel/report/day10_report_handoff.zip` (Colab: Files → `report/` → menu cạnh file → Download). Notebook cũng sao lưu ZIP vào Google Drive tại `MyDrive/AI20K_Lab_Day10_Checkpoints/day10_report_handoff.zip`.
+
+ZIP giữ nguyên đường dẫn `REPORT.md`, `report/` và `work/`; nó gồm GUIDE/RUBRIC, bảng số liệu, evidence JSON, raw predictions, metadata/log huấn luyện, audit dữ liệu, diagnostics và hình minh hoạ. ZIP không chứa dataset, credentials hay model weights. Đặt ZIP trong repo root rồi giải nén tại đó để khôi phục các artifact. Khi acceptance summary báo đủ E0–E4, gửi ZIP để hoàn thiện 10 câu phân tích trong `REPORT.md`; bảng số liệu được điền tự động, còn phần diễn giải và họ tên cần hoàn tất sau khi xem kết quả thật.
