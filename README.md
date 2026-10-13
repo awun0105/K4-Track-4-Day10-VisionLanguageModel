@@ -1,7 +1,7 @@
 # Lab Day 10: Finetune Qwen3-VL-4B (LoRA) để định vị hư hại mặt đường
 
 > Track 4 · Ngày 10 · *Nhãn, auto-labeling và Vision–Language Model* · **bài cá nhân** · ≈ 4 giờ trên **Google Colab T4 (miễn phí)**
-> Bạn **tự viết** phần huấn luyện và suy luận theo pseudo code trong [`GUIDE.md`](GUIDE.md). Công cụ chia dữ liệu và chấm điểm do giảng viên viết sẵn và **không được sửa**.
+> Notebook [`lab_day10.ipynb`](lab_day10.ipynb) đã triển khai luồng huấn luyện và suy luận theo [`GUIDE.md`](GUIDE.md), đồng thời tạo evidence/biểu đồ để bạn nghiệm thu. Hãy đọc GUIDE, kiểm tra kết quả thật trên Colab và tự viết 10 phần phân tích trong `REPORT.md`. Công cụ chia dữ liệu và chấm điểm do giảng viên viết sẵn và **không được sửa**.
 
 | File | Dùng để làm gì |
 |---|---|
@@ -9,7 +9,7 @@
 | [`GUIDE.md`](GUIDE.md) | Từng bước + pseudo code + câu hỏi |
 | [`RUBRIC.md`](RUBRIC.md) | Thang điểm 100 (+10) |
 | [`REPORT.md`](REPORT.md) | Mẫu báo cáo 10 câu |
-| `lab_day10.ipynb` | Khung notebook để bạn điền mã |
+| `lab_day10.ipynb` | Notebook chạy E0–E4, nghiệm thu, lưu evidence và hình; E5 bonus bật riêng |
 | `configs/e0…e5.yaml` | Siêu tham số từng thí nghiệm |
 | `scripts/prepare_data.py` | Tải dữ liệu, chia split |
 | `scripts/score.py` | **Trọng tài**: chấm `predictions.jsonl` |

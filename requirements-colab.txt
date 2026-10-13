@@ -7,3 +7,5 @@ bitsandbytes==0.50.2
 pyyaml
 pillow
 kaggle
+matplotlib
+pytest
