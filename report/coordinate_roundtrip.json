@@ -1,0 +1,19 @@
+{
+  "image_id": "20250216_164325",
+  "label": "manhole",
+  "direct_pixel_box": [
+    203,
+    173,
+    394,
+    225
+  ],
+  "roundtrip_pixel_box": [
+    203,
+    173,
+    394,
+    225
+  ],
+  "max_error_px": 0,
+  "pass": true,
+  "figure": "report/figures/coord_roundtrip.png"
+}

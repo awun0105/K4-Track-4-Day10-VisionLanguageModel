@@ -9,6 +9,7 @@ __pycache__/
 *.pt
 *.ckpt
 adapter*/
+*.zip
 .ipynb_checkpoints/
 .pytest_cache/
 .DS_Store

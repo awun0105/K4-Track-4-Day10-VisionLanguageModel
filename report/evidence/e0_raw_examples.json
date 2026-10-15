@@ -1,0 +1,32 @@
+[
+  {
+    "image_id": "vlcsnap-00200",
+    "raw": "[\n\t{\"label\": \"manhole\", \"bbox_2d\": [759, 640, 845, 690]},\n\t{\"label\": \"manhole\", \"bbox_2d\": [910, 786, 998, 824]}\n]\n",
+    "parse_valid": true,
+    "parsed_box_count": 2
+  },
+  {
+    "image_id": "vlcsnap-00201",
+    "raw": "[\n\t{\"label\": \"crack\", \"bbox_2d\": [0, 470, 998, 997]}\n]",
+    "parse_valid": true,
+    "parsed_box_count": 1
+  },
+  {
+    "image_id": "vlcsnap-00202",
+    "raw": "[\n    {\"label\": \"manhole\", \"bbox_2d\": [309, 684, 393, 719]}\n]",
+    "parse_valid": true,
+    "parsed_box_count": 1
+  },
+  {
+    "image_id": "vlcsnap-00203",
+    "raw": "[\n\n]",
+    "parse_valid": true,
+    "parsed_box_count": 0
+  },
+  {
+    "image_id": "vlcsnap-00204",
+    "raw": "[\n    {\n        \"label\": \"manhole\",\n        \"bbox_2d\": [253, 627, 320, 660]\n    }\n]",
+    "parse_valid": true,
+    "parsed_box_count": 1
+  }
+]

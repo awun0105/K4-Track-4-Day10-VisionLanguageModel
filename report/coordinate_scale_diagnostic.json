@@ -1,0 +1,21 @@
+{
+  "dataset_version": "d10-21e4070301",
+  "prediction_file": "work/e0.jsonl",
+  "correct_interpretation": {
+    "coord": "norm1000",
+    "f1": 0.09966777408637874,
+    "ci95": [
+      0.07341490545050056,
+      0.13140311804008908
+    ]
+  },
+  "mismatched_interpretation": {
+    "coord": "pixel",
+    "f1": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "note": "Same E0 predictions scored once with norm1000 and once misread as pixels; diagnostic only, not an E4 ablation."
+}
